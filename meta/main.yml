@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Stefan Machmeier
-  description: Ansible role to install/configure openvpn
+  description: Ansible role to install/configure openvpn.
   license: EUPL1.2
   role_name: openvpn
 
@@ -20,7 +20,10 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - trusty
+
   galaxy_tags:
     - networking
+    - openvpn
+    - remote
 
 dependencies: []
