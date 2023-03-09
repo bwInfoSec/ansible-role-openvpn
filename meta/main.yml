@@ -1,8 +1,9 @@
 ---
 galaxy_info:
   author: Stefan Machmeier
-  description: Ansible role to install/configure openvpn.
+  description: Ansible role to install and configure openvpn.
   license: EUPL1.2
+  namespace: bwinfosec
   role_name: openvpn
 
   min_ansible_version: "2.9"
@@ -10,16 +11,11 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - "7"
         - "8"
-    - name: Fedora
-      versions:
-        - "32"
-        - "33"
-        - "34"
     - name: Ubuntu
       versions:
-        - trusty
+        - focal
+        - yammy
 
   galaxy_tags:
     - networking

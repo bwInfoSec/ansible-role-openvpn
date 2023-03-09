@@ -11,12 +11,12 @@ lint: |
   ansible-lint
 platforms:
   - name: centos8
-    image: registry-gitlab.urz.uni-heidelberg.de/it-sec/molecule-docker-images/production/centos:8
+    image: bwinfosec/centos8-systemd:latest
     privileged: true
     override_command: false
     dns_servers:
-      - 129.206.100.126
-      - 129.206.210.127
+      - 1.1.1.1
+      - 8.8.8.8
     tmpfs:
       - /run
       - /run/lock

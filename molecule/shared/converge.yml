@@ -28,6 +28,6 @@
         enabled: true
       become: true
 
-    - name: Include itsec_ansible_collection.applications.openvpn
+    - name: Run bwinfosec.openvpn
       ansible.builtin.include_role:
-        name: itsec_ansible_collection.applications.openvpn
+        name: bwinfosec.openvpn

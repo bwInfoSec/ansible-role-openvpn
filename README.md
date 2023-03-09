@@ -1,3 +1,5 @@
+**TODO:** Update this README to reflect the changes in the bwinfosec fork.
+
 OpenVPN
 =========
 Github Actions (PRs & mainline): ![Github CI](https://github.com/kyl191/ansible-role-openvpn/workflows/CI/badge.svg)
